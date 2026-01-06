@@ -35,18 +35,13 @@ __A Streamlit-based web interface__ allows users to input problem details and ge
 - url
 ## 👉🏼Approach & Methodology
 ### Data Preprocessing
-- Missing values handled using empty strings
-- Multiple text fields combined into a single feature:
-  - Title
-  - Description
-  - Input Description
-  - Output Description
+- Text cleaning (lowercasing, punctuation removal)
+- Concatenation of title, description, input, and output text
+- Tokenization using __TF-IDF__
 
 ### Feature Extraction
-- __TF-IDF Vectorization__
-  - max_features = 8000
-  - ngram_range = (1, 2)
-  - Stop words removed (English)
+- __TF-IDF Vectorizer__
+- Converts textual problem statements into numerical features
 
 ### Models Used
 1. __Classification Model__
@@ -80,6 +75,9 @@ __A Streamlit-based web interface__ allows users to input problem details and ge
   - Predicted Difficulty Score
 ### Tech Used:
 - Streamlit
+- Python
+- Scikit-learn
+- Joblib
 - Pre-trained ML models (.pkl files)
 ## 👉🏼Steps to Run the Project Locally
 ### 1. Clone the Repository
@@ -142,6 +140,7 @@ programming-problem-difficulty-predictor/
 
 ## 👉🏼Conclusion
 This project demonstrates how NLP techniques combined with machine learning can be used to estimate the difficulty of programming problems. Despite the subjective nature of difficulty labels, the system provides meaningful predictions and a practical interactive interface.
+
 
 
 
