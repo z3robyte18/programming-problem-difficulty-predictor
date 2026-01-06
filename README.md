@@ -104,7 +104,7 @@ The app will open automatically in your browser.
 ## 👉🏼Project Structure
 
 ```text
-ds_project/
+programming-problem-difficulty-predictor/
 │
 ├── app/ 
 │   └── app.py
@@ -117,12 +117,10 @@ ds_project/
 │   ├── classifier.pkl
 │   └── regressor.pkl
 │
-├── notebooks/
-│   └── nlp_problem_difficulty.ipynb
 │
+├── nlp_problem_difficulty.ipynb
+├── requirements.txt
 ├── README.md
-├── .gitignore
-└── report.pdf
 ```
 ## 👉🏼Demo Video
 
@@ -143,5 +141,6 @@ ds_project/
 
 ## 👉🏼Conclusion
 This project demonstrates how NLP techniques combined with machine learning can be used to estimate the difficulty of programming problems. Despite the subjective nature of difficulty labels, the system provides meaningful predictions and a practical interactive interface.
+
 
 
