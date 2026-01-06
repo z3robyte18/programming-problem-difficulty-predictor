@@ -121,6 +121,7 @@ programming-problem-difficulty-predictor/
 ├── nlp_problem_difficulty.ipynb
 ├── requirements.txt
 ├── README.md
+└── .gitignore
 ```
 ## 👉🏼Demo Video
 
@@ -141,6 +142,7 @@ programming-problem-difficulty-predictor/
 
 ## 👉🏼Conclusion
 This project demonstrates how NLP techniques combined with machine learning can be used to estimate the difficulty of programming problems. Despite the subjective nature of difficulty labels, the system provides meaningful predictions and a practical interactive interface.
+
 
 
 
